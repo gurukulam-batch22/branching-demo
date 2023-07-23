@@ -8,6 +8,7 @@ case $3 in
    1)
 	echo "I'll add $no1 & $no2"
         sum=$((no1 + no2))
+        echo "The sum of $no1 and $no2 is: $sum"
    ;;
    2)
         echo "I'll substract $no1 & $no2"
