@@ -6,17 +6,18 @@ operation=$3
 
 
 function add(){
-#sum=$no1+$no2
 sum=`expr $no1 + $no2`
-
 echo $sum
 }
 
 function sub(){
-#sub=$no1-$no2
 subb=`expr $no1 - $no2`
-
 echo $subb
+}
+
+function div(){
+divi=`expr $no1 / $no2`
+echo $divi
 }
 
 case $3 in
@@ -33,5 +34,6 @@ case $3 in
    ;;   
    4)
         echo "I'll divide $no1 & $no2"
+	div
    ;;
 esac
