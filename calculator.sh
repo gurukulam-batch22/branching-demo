@@ -9,7 +9,10 @@ case $3 in
 	echo "I'll add $no1 & $no2"
    ;;
    2)
-        echo "I'll substract $no1 & $no2"
+	  echo "I'll substract $no1 & $no2"
+	  sub=$((no1 - no2))
+        echo "substraction of $no1 & $no2 is $sub"
+         
    ;;
    3)
         echo "I'll multiply $no1 & $no2"
