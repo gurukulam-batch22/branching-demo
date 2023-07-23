@@ -16,6 +16,8 @@ case $3 in
    ;;
    3)
         echo "I'll multiply $no1 & $no2"
+	result=$((no1 * no2))
+        echo "Result: $result"
    ;;   
    4)   
 	  division=$(($no1 / $no2))  
