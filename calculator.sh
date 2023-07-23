@@ -12,7 +12,8 @@ case $3 in
         echo "I'll substract $no1 & $no2"
    ;;
    3)
-        echo "I'll multiply $no1 & $no2"
+        mul=$((no1 * no2))
+        echo "multiplication of $no1 & $no2 is $mul"
    ;;   
    4)
         echo "I'll divide $no1 & $no2"
