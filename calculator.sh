@@ -7,6 +7,8 @@ operation=$3
 case $3 in
    2)
 	echo "I'll substract $no1 & $no2"
+        sub=$((no1 - no2))
+	echo "I'll substract $no1 & $no2: $sub"
    ;;
    1)
         echo "I'll substract $no1 & $no2"
