@@ -15,6 +15,8 @@ case $3 in
         echo "I'll multiply $no1 & $no2"
    ;;   
    4)
-        echo "I'll divide $no1 & $no2"
+          ans=`expr $no1 / $no2`
+          echo "division of $no1 & $no2 is $ans"
+        
    ;;
 esac
