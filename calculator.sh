@@ -5,12 +5,20 @@ no2=$2
 operation=$3
 
 
-function add(){
+function add()
+{
 #sum=$no1+$no2
 sum=`expr $no1 + $no2`
-
 echo $sum
 }
+
+function sub()
+{
+#sum=$no1+$no2
+sub=`expr $no1 - $no2`
+echo $sub
+}
+
 case $3 in
    1)
 	#echo "I'll add $no1 & $no2"
@@ -18,7 +26,8 @@ case $3 in
        	;;
    2)
         echo "I'll substract $no1 & $no2"
-   ;;
+	sub
+        ;;
    3)
         echo "I'll multiply $no1 & $no2"
    ;;   
