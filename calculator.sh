@@ -14,7 +14,9 @@ case $3 in
    3)
         echo "I'll multiply $no1 & $no2"
    ;;   
-   4)
-        echo "I'll divide $no1 & $no2"
-   ;;
+   4)   
+	  division=$(($no1 / $no2))  
+        echo "I'll divide  $no1 & $no2"
+	  echo  "division of $no1 and $no2 is $division"
+          ;;
 esac
