@@ -15,9 +15,11 @@ echo $sum
 function sub()
 {
 #sum=$no1+$no2
-sub=`expr $no1 - $no2`
-echo $sub
+sum=`expr $no1 + $no2`
+echo $sum
 }
+
+
 
 case $3 in
    1)
@@ -30,8 +32,8 @@ case $3 in
         ;;
    3)
         echo "I'll multiply $no1 & $no2"
-   ;;   
+        ;;   
    4)
         echo "I'll divide $no1 & $no2"
-   ;;
+        ;;
 esac
