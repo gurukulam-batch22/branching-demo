@@ -17,4 +17,9 @@ case $3 in
    4)
         echo "I'll divide $no1 & $no2"
    ;;
+   5)
+        echo "I'll do the percentage  $no1 % $no2"
+	percentage=$(((no1*100)/no2))
+	echo "The percentage of $no1 & $no2 is $percentage"
+   ;;
 esac
