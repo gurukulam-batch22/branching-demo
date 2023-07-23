@@ -7,6 +7,7 @@ operation=$3
 case $3 in
    1)
 	echo "I'll add $no1 & $no2"
+	echo "completed"
    ;;
    2)
         echo "I'll substract $no1 & $no2"
