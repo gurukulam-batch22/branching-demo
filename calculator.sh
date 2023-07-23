@@ -32,20 +32,20 @@ echo $div
 
 case $3 in
    1)
-	echo "I'll add $no1 & $no2"
-	add	
+	      echo "I'll add $no1 & $no2"
+        add
         ;;
    2)
         echo "I'll substract $no1 & $no2"
-	sub
+	      sub
         ;;
    3)
         echo "I'll multiply $no1 & $no2"
-	mul
+	      mul
         ;;   
    4)
         echo "I'll divide $no1 & $no2"
-	div
+	      div
         ;;
    *)   echo "invalid inputes"
 	;;
