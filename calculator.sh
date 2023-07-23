@@ -16,7 +16,7 @@ case $3 in
    ;;   
    4)
           ans=`expr $no1 / $no2`
-          echo "division of $no1 & $no2 is $ans"
+          echo "division of $no1 & $no2 = $ans"
         
    ;;
 esac
