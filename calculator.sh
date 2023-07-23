@@ -11,7 +11,8 @@ case $3 in
   	echo "The sum of $no1 and $no2 is: $sum"
    ;;
    2)
-        echo "I'll substract $no1 & $no2"
+	sub =$((no1 - no2))
+	echo "I'll substract $no1 & $no1: $sub"
    ;;
    3)
         echo "I'll multiply $no1 & $no2"
@@ -22,3 +23,4 @@ case $3 in
         
    ;;
 esac
+
